@@ -1,0 +1,9 @@
+# webhook
+
+[![Build Status](https://travis-ci.org/johanfleury/puppet-webhook.svg?branch=master)](https://travis-ci.org/johanfleury/puppet-webhook)
+
+## Overview
+
+[webhook](https://github.com/adnanh/webhook) is a lightweight configurable tool
+written in Go, that allows you to easily create HTTP endpoints (hooks) on your
+server, which you can use to execute configured commands.

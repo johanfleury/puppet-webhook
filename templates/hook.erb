@@ -1,0 +1,3 @@
+<%- if @settings -%>
+<%= require "json"; JSON.pretty_generate(@settings).gsub(/^/, "  ") %>
+<%- end -%>
