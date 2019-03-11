@@ -1,6 +1,6 @@
 {
   "name": "arcaik-webhook",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": "Johan Fleury (Arcaik)",
   "summary": "Configuration and management of adnanh/webhook",
   "license": "GPL-3.0",
