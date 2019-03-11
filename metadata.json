@@ -4,9 +4,9 @@
   "author": "Johan Fleury (Arcaik)",
   "summary": "Configuration and management of adnanh/webhook",
   "license": "GPL-3.0",
-  "source": "https://github.com/johanfleury/puppet-webhook",
-  "project_page": "https://github.com/johanfleury/puppet-webhook",
-  "issues_url": "https://github.com/johanfleury/puppet-webhook/issues",
+  "source": "https://gitlab.com/Arcaik/puppet-webhook/",
+  "project_page": "https://gitlab.com/Arcaik/puppet-webhook/",
+  "issues_url": "https://gitlab.com/Arcaik/puppet-webhook/issues",
   "dependencies": [
     {
       "name": "puppetlabs-stdlib",
