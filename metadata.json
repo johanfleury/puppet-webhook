@@ -7,15 +7,6 @@
   "source": "https://github.com/johanfleury/puppet-webhook",
   "project_page": "https://github.com/johanfleury/puppet-webhook",
   "issues_url": "https://github.com/johanfleury/puppet-webhook/issues",
-  "tags": ["webhook", "adnanh"],
-  "operatingsystem_support": [
-    {
-      "operatingsystem": "Debian",
-      "operatingsystemrelease": [
-        "9"
-      ]
-    }
-  ],
   "dependencies": [
     {
       "name": "puppetlabs-stdlib",
@@ -26,7 +17,25 @@
       "version_requirement": ">= 5.1.0 < 6.0.0"
     }
   ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "9"
+      ]
+    }
+  ],
   "requirements": [
-    { "name": "puppet", "version_requirement": ">= 4.0.0 < 6.0.0" }
-  ]
+    {
+      "name": "puppet",
+      "version_requirement": ">= 4.10.0 < 7.0.0"
+    }
+  ],
+  "tags": [
+    "webhook",
+    "adnanh"
+  ],
+  "pdk-version": "1.8.0",
+  "template-url": "https://github.com/puppetlabs/pdk-templates",
+  "template-ref": "tags/1.8.0-0-g0d9da00"
 }

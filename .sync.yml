@@ -1,3 +1,7 @@
 ---
 .travis.yml:
+  extras:
+    -
+      env: CHECK=build DEPLOY_TO_FORGE=yes
+  user: arcaik
   secure: "aXygE29X9agaIiWaBPj4N+2utGq5Ynk+Dx7AlRcYrQ+l9kmBIaiN6B9x45bqsdyCkWgKQsQwkKmAWz93ruJP5CN5evaLy0vTCo2gPgjPXai/9DIxCDS2VrtkQVsBBaHg7SdvEet+OaznxmUlpiFWv/yXmtWUx4HhguT+S9TxYx/i3eXt8nGsJBu8pRx8YDaFNPYjO8nJWcXYImhKckwb68/h7I0okl4FOalB4u5j4JI/OKNUzSEkFi5aTq2e9o3No0tgH0jpy3+Ln8W+OUVxJAlWj1w3eSwr/vDehPZBnlTnYtWqBU5+jWOgw01sv3gRO8vu07zF/QTZbs9EVSxg5c8qpRXn+OXg/MCY51Il7j8PRtkDIT7h0LuffIcmzZU3wuzUamrjLPDq7Fabt7RT3IJPl3jHiw5ljz1JWzfTYOhpI104vs9LaXQcBnM4XqJ6v/anARo+CULg1BGyowiUaSwH5RJwWqG0v7xMd4NcMBSzEa9xqZFKroWB3ZAezQmqqZqAZWIRgyV0k73cv1HjZyzJ2xsxrSID9WtnLQgX5mlqnLYyYbKuARPMZ/gzQeLHlJ69bdGIs2nRSSISyvfhlIKNSjhSjnb8JAFnJTwR1G6fGNDk8OgDmT9MIU5uoRvAVm79lqbgEvaJq63CnkI5Ns23FvVfC9LyLChXGqS94A4="
